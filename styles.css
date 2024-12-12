@@ -1,0 +1,149 @@
+/* Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #FFFFFF;
+  color: #111111;
+}
+
+/* Header */
+.site-header {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
+.hero-tagline {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  color: #555;
+}
+
+.hero-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 24px;
+  background: #111111;
+  color: #FFFFFF;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.hero-button:hover {
+  background: #333333;
+}
+
+/* Key Sections */
+.key-sections {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 60px auto;
+  gap: 20px;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+.section-card {
+  background: #FFFFFF;
+  border: 1px solid #eee;
+  flex: 1 1 calc(20% - 20px);
+  min-width: 200px;
+  max-width: 220px;
+  text-align: center;
+  padding: 40px 20px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.section-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transform: translateY(-5px);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid #eee;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #777777;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .section-card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .section-card {
+    flex: 1 1 100%;
+  }
+}
