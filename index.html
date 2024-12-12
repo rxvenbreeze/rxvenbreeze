@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Official website of RXVEN - minimal, modern design."/>
+  <meta name="description" content="RXVEN - Minimalist site with a vertical menu."/>
   
   <title>RXVEN</title>
   
@@ -19,56 +19,58 @@
   
 </head>
 <body>
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="header-container">
-      <!-- Logo: If you have a logo image, replace the text below with <img> -->
-      <!-- Example: <img src="images/rxven-logo.png" alt="RXVEN Logo" class="logo" /> -->
-      <img src="images/rxven-logo.png" alt="RXVEN Logo" class="logo" />
-      <!-- Future nav items can go here if needed -->
-    </div>
-  </header>
+  <!-- SIDEBAR with Clickable Elements -->
+  <aside class="sidebar">
+    <div class="logo">👻</div>
+    <nav class="nav-sections">
+      <a href="#shop" class="nav-link">Shop</a>
+      <a href="#journal" class="nav-link">Journal</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </aside>
   
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1 class="hero-title">RXVEN.</h1>
-      <p class="hero-tagline"></p>
-      <a href="#sections" class="hero-button">ENTER</a>
-    </div>
-  </section>
-  
-  <!-- FIVE CLICKABLE AREAS -->
-  <section id="sections" class="key-sections">
-    <div class="section-card">
-      <!-- Use an icon or placeholder text/icon here -->
-      <div class="card-icon"></div>
-      <h2 class="card-title">Music</h2>
-    </div>
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">RXVEN</h1>
+        <p class="hero-tagline">A Minimalist Vision</p>
+      </div>
+    </section>
     
-    <div class="section-card">
-      <div class="card-icon"></div>
-      <h2 class="card-title">Packs</h2>
-    </div>
+    <!-- SECTIONS (dummy content placeholders) -->
+    <section id="shop" class="content-section">
+      <h2>Shop</h2>
+      <p>Explore our curated selection of items.</p>
+    </section>
     
-    <div class="section-card">
-      <div class="card-icon"></div>
-      <h2 class="card-title">Info</h2>
-    </div>
+    <section id="journal" class="content-section">
+      <h2>Journal</h2>
+      <p>Dive into our thoughts and stories.</p>
+    </section>
     
-    <div class="section-card">
-      <div class="card-icon"></div>
-      <h2 class="card-title">Poetry</h2>
-    </div>
-  </section>
+    <section id="services" class="content-section">
+      <h2>Services</h2>
+      <p>Discover what we can do for you.</p>
+    </section>
+    
+    <section id="gallery" class="content-section">
+      <h2>Gallery</h2>
+      <p>Visual inspiration from our world.</p>
+    </section>
+    
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+      <p>Get in touch with us.</p>
+    </section>
+  </main>
   
   <!-- FOOTER -->
   <footer class="site-footer">
-    <div class="footer-container">
-      <p>© 2024 RXVEN. All rights reserved.</p>
-      <!-- Add social icons here if desired -->
-      <!-- e.g., <a href="#" class="social-link">Instagram</a> -->
-    </div>
+    <p>© 2024 RXVEN. All rights reserved.</p>
   </footer>
   
 </body>
